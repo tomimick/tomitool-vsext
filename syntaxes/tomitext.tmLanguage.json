@@ -1,0 +1,55 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "tomitext",
+	"patterns": [
+		{
+			"include": "#keywords"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+			{
+				"name": "keyword.control.done",
+				"match": "^x- .*$"
+			},
+			{
+				"name": "keyword.control.done",
+				"match": "^  x\\* .*$"
+			},
+			{
+				"name": "keyword.control.notdone",
+				"match": "^o- .*$"
+			},
+			{
+				"name": "keyword.control.hi",
+				"match": "\\b_.+_\\b"
+			},
+			{
+				"name": "keyword.control.neg",
+				"match": "\\\\.+\\\\"
+			},
+			{
+				"name": "keyword.control.link",
+				"match": "http[s]?:[\\S]*"
+			},
+			{
+				"name": "keyword.control.date",
+				"match": "^#.+#$"
+			}
+		]
+		},
+		"strings": {
+			"name": "string.quoted.double.tomitext",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+				{
+					"name": "constant.character.escape.tomitext",
+					"match": "\\\\."
+				}
+			]
+		}
+	},
+	"scopeName": "text.tomiscope"
+}

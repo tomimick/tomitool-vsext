@@ -1,0 +1,25 @@
+
+_Sample text file_
+
+This is a plain text file with custom coloring by tomitool extension.
+https://github.com/tomimick/tomitool-vsext
+
+Text can be easily _hilighted_ and with \red color\ too.
+
+New colors can be added to the grammar.
+
+TODO
+x- develop extension
+  x* learn grammar
+  x* sample command
+  x* install script
+x- keyboard shortcuts
+o- release to marketplace
+x- start using vscode
+- release into github
+
+# 19.01.2022 #
+Started to use VSCode full time!
+
+# 05.06.2022 #
+Finally packetized the extension into github!
