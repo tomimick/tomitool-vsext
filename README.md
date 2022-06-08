@@ -21,8 +21,8 @@ When I started to use VSCode, I searched the marketplace for syntax hilighting e
 The 2nd purpose of this extension is to develop my custom commands to VSCode. There is a single sample command "Tomitool.Hello World" that replaces the existing editor text selection with a sample text. This is just a base for further development of commands.
 
 
-Build
------
+Build and install
+-----------------
 
 The extension was started by using
 [a yoman generator](https://code.visualstudio.com/api/get-started/your-first-extension) as officially recommended.
@@ -40,6 +40,9 @@ After editing these two files, you can build and package the extension for local
     ./install.sh
 
 Then restart VSCode to test and see the extension running in the editor.
+
+In your VSCode settings.json, you colorize the tokens like this
+[settings-snippet.json](settings-snippet.json).
 
 
 Motivation

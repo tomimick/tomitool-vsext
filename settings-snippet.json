@@ -1,0 +1,53 @@
+{
+    // add these to your settings.json
+
+    // colorize tomitool extension tokens
+    // (background color is not supported)
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+            "scope": ["keyword.control.done"],
+            "settings": {
+                "foreground": "#46e087",
+                "fontStyle": ""
+            }
+        },
+        {
+           "scope": ["keyword.control.notdone"],
+           "settings": {
+               "foreground": "#8b8b8b",
+               "fontStyle": ""
+           }
+       },
+       {
+            "scope": ["keyword.control.hi"],
+            "settings": {
+                "foreground": "#eca02e",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": ["keyword.control.neg"],
+            "settings": {
+                "foreground": "#ec2e57",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": ["keyword.control.link"],
+            "settings": {
+                "foreground": "#367fec",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": ["keyword.control.date"],
+            "settings": {
+                "foreground": "#caeb13",
+                "fontStyle": "bold underline"
+            }
+        }
+        ]
+    }
+}
